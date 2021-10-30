@@ -1,6 +1,6 @@
 import React from "react";
 // nodejs library that concatenates classes
-import classNames from "classnames";
+// import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -9,33 +9,36 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
-import Card from "components/Card/Card.js";
-import CardBody from "components/Card/CardBody.js";
-import CardFooter from "components/Card/CardFooter.js";
+// import Button from "components/CustomButtons/Button.js";
+// import Card from "components/Card/Card.js";
+// import CardBody from "components/Card/CardBody.js";
+// import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
-import team1 from "assets/img/faces/avatar.jpg";
-import team2 from "assets/img/faces/christian.jpg";
-import team3 from "assets/img/faces/kendall.jpg";
+// import team1 from "assets/img/faces/avatar.jpg";
+// import team2 from "assets/img/faces/christian.jpg";
+// import team3 from "assets/img/faces/kendall.jpg";
 
 const useStyles = makeStyles(styles);
 
 export default function TeamSection() {
   const classes = useStyles();
-  const imageClasses = classNames(
-    classes.imgRaised,
-    classes.imgRoundedCircle,
-    classes.imgFluid
-  );
+  // const imageClasses = classNames(
+  //   classes.imgRaised,
+  //   classes.imgRoundedCircle,
+  //   classes.imgFluid
+  // );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Here is our team</h2>
+      <h2 className={classes.title}>What&apos;s it about?</h2>
+      {/* <br />
+      <br />
+      <br /> */}
       <div>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
+          <GridItem>
+            {/* <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem>
@@ -154,7 +157,18 @@ export default function TeamSection() {
                   <i className={classes.socials + " fab fa-facebook"} />
                 </Button>
               </CardFooter>
-            </Card>
+            </Card> */}
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            >
+              {" "}
+            </iframe>
           </GridItem>
         </GridContainer>
       </div>

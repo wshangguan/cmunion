@@ -23,6 +23,9 @@ const workStyle = {
     marginRight: "15px",
     marginLeft: "15px",
   },
+  buttonAlign: {
+    textAlign: "center",
+  },
 };
 
 export default workStyle;
