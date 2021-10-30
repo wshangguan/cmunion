@@ -21,6 +21,8 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
+import CustomInput from "components/CustomInput/CustomInput.js";
+import { Box } from "@material-ui/core";
 
 const dashboardRoutes = [];
 
@@ -55,16 +57,27 @@ export default function LandingPage(props) {
                 hope you would gain love and fame someday.
               </h4>
               <br />
-              <Button
-                color="danger"
-                size="lg"
-                // href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-chevron-circle-right" />
-                Join Now
-              </Button>
+              <Box className={classes.subscribeBox}>
+                <CustomInput
+                  labelText="Your Email"
+                  id="email"
+                  formControlProps={{
+                    fullWidth: true,
+                  }}
+                />
+                <Box mx={2}>
+                  <Button
+                    color="primary"
+                    size="md"
+                    // href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    round
+                  >
+                    Subscribe
+                  </Button>
+                </Box>
+              </Box>
             </GridItem>
           </GridContainer>
         </div>

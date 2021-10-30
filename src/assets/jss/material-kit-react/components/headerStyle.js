@@ -55,11 +55,11 @@ const headerStyle = {
     ...defaultFont,
     // fontWeight: "bold",
     lineHeight: "30px",
-    fontSize: "26px",
+    fontSize: "30px",
     borderRadius: "3px",
     textTransform: "none",
     color: "inherit",
-    padding: "8px 16px",
+    // padding: "8px 16px",
     letterSpacing: "unset",
     "&:hover,&:focus": {
       color: "inherit",
