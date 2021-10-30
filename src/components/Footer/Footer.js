@@ -29,7 +29,7 @@ export default function Footer(props) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
-        <div className={classes.left}>
+        {/* <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
@@ -68,8 +68,8 @@ export default function Footer(props) {
               </a>
             </ListItem>
           </List>
-        </div>
-        <div className={classes.right}>
+        </div> */}
+        <div>
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
