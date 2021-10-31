@@ -69,7 +69,6 @@ export default function LandingPage(props) {
                   <Button
                     color="primary"
                     size="md"
-                    // href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
                     target="_blank"
                     rel="noopener noreferrer"
                     round

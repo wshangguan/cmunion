@@ -3,9 +3,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
+import Trend from "@material-ui/icons/TrendingUp";
 import Fingerprint from "@material-ui/icons/Fingerprint";
+import Face from "@material-ui/icons/Face";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -21,13 +21,11 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
+          <h2 className={classes.title}>Why CMUnion?</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            CMUnion offers one of a kind CMU-themed digital arts NFTs. We turns
+            We turns arts into limited edition tokens on the Ethereum blockchain
+            for alumni and students, and allows token tradings.
           </h5>
         </GridItem>
       </GridContainer>
@@ -35,28 +33,28 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Chat}
+              title="CMU Network"
+              description="Leverage your CMU network and get to know other talented graduates. Build connections through events, referral, and NFT tradings."
+              icon={Face}
               iconColor="info"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={VerifiedUser}
-              iconColor="success"
+              title="Collectible NFTs"
+              description="We collaborate with local artists, and proudly delivers limited-edition collectable NFT tokens for all events hold by the CMU alumni engagement team."
+              icon={Fingerprint}
+              iconColor="danger"
               vertical
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Fingerprint}
-              iconColor="danger"
+              title="Success"
+              description="Start building your CMU network today for job referrals, potential start-up partners, and have fun!"
+              icon={Trend}
+              iconColor="success"
               vertical
             />
           </GridItem>
