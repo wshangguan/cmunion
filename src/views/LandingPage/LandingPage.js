@@ -57,8 +57,10 @@ export default function LandingPage(props) {
                 <strong>Connect</strong> with your peers and alumni. <br />{" "}
                 <strong>Grow</strong> your network. <br /> <strong>Earn</strong>{" "}
                 NFTs and get referrals along the way.
+                <br />
+                <br />
+                Subscribe to get the latest updates.
               </h4>
-              <br />
               <Box className={classes.subscribeBox}>
                 <CustomInput
                   labelText="Your Email"
