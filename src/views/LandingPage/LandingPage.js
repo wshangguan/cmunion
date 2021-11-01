@@ -54,7 +54,7 @@ export default function LandingPage(props) {
               </h1>
               <h4>
                 {/* Need to change to something else if necessary */}
-                <strong>Connect</strong> with people. <br />{" "}
+                <strong>Connect</strong> with your peers and alumni. <br />{" "}
                 <strong>Grow</strong> your network. <br /> <strong>Earn</strong>{" "}
                 NFTs along the way.
               </h4>
