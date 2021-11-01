@@ -53,8 +53,10 @@ export default function LandingPage(props) {
                 The new way of connecting with CMU.
               </h1>
               <h4>
-                We care about you, <br /> would do anything for you, <br /> and
-                hope you would gain love and fame someday.
+                {/* Need to change to something else if necessary */}
+                <strong>Connect</strong> with people. <br />{" "}
+                <strong>Grow</strong> your network. <br /> <strong>Earn</strong>{" "}
+                NFTs along the way.
               </h4>
               <br />
               <Box className={classes.subscribeBox}>
