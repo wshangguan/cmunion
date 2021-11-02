@@ -3,7 +3,6 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-
 // @material-ui/icons
 
 // core components
@@ -37,7 +36,6 @@ export default function LandingPage(props) {
         color="transparent"
         routes={dashboardRoutes}
         brand="CMUnion"
-        // rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 400,
@@ -49,17 +47,13 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>
-                The new way of connecting with CMU.
-              </h1>
-              <h4>
-                {/* Need to change to something else if necessary */}
-                <strong>Connect</strong> with your peers and alumni. <br />{" "}
-                <strong>Grow</strong> your network. <br /> <strong>Earn</strong>{" "}
-                NFTs and get referrals along the way.
+              <h1 className={classes.title}>Meet Your CMU Connections</h1>
+              <h4 style={{ fontSize: 21 }}>
+                <strong>Connect</strong> with current students and alumni.
+                <br /> <strong>Grow</strong> your network. <br />{" "}
+                <strong>Earn</strong> NFTs and get referrals along the way.
                 <br />
                 <br />
-                Subscribe to get the latest updates.
               </h4>
               <Box className={classes.subscribeBox}>
                 <CustomInput
@@ -77,7 +71,7 @@ export default function LandingPage(props) {
                     rel="noopener noreferrer"
                     round
                   >
-                    Subscribe
+                    Learn More
                   </Button>
                 </Box>
               </Box>

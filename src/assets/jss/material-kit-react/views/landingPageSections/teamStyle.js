@@ -3,7 +3,9 @@ import imagesStyle from "assets/jss/material-kit-react/imagesStyles.js";
 
 const teamStyle = {
   section: {
-    padding: "10px 0",
+    // padding: "0px 0px 100px 100px",
+    // paddingTop: "10px",
+    paddingBottom: "35%",
     textAlign: "center",
   },
   title: {

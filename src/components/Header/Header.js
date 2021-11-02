@@ -10,10 +10,10 @@ import Toolbar from "@material-ui/core/Toolbar";
 // import IconButton from "@material-ui/core/IconButton";
 import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
-// import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
 // import Menu from "@material-ui/icons/Menu";
 // core components
+import cmuLogo from "assets/img/cmu_logo.png";
 import styles from "assets/jss/material-kit-react/components/headerStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -74,35 +74,10 @@ export default function Header(props) {
             brandComponent
           )}
         </div>
-        {/* <Hidden smDown implementation="css">
-          {rightLinks}
-        </Hidden> */}
-        {/* <Hidden mdUp>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            onClick={handleDrawerToggle}
-          >
-            <Menu />
-          </IconButton>
-        </Hidden> */}
+        <div>
+          <img src={cmuLogo} height={85}></img>
+        </div>
       </Toolbar>
-      {/* <Hidden mdUp implementation="js">
-        <Drawer
-          variant="temporary"
-          anchor={"right"}
-          open={mobileOpen}
-          classes={{
-            paper: classes.drawerPaper,
-          }}
-          onClose={handleDrawerToggle}
-        >
-          <div className={classes.appResponsive}>
-            {leftLinks}
-            {rightLinks}
-          </div>
-        </Drawer>
-      </Hidden> */}
     </AppBar>
   );
 }
